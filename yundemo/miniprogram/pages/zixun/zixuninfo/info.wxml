@@ -1,0 +1,4 @@
+<!--pages/zixun/zixuninfo/info.wxml-->
+<view class='info-content'>
+<rich-text class='info-text' nodes="{{content[cid]}}"></rich-text>
+</view>

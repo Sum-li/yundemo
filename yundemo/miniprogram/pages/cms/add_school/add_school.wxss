@@ -1,0 +1,21 @@
+/* miniprogram/pages/cms/add_school/add_school.wxss */
+.form-input{
+  background: #f6f6f6;
+  height: 70rpx;
+  width: 70%;
+  margin: auto;
+  font-size: 30rpx;
+  border-radius: 50rpx;
+  padding-left: 55rpx;
+  margin-top: 200rpx;
+}
+
+.form-btn{
+  margin-top: 30rpx;
+  width: 60%;
+  height: 85rpx;
+  font-size: 34rpx;
+  line-height: 85rpx;
+  background: #da6847;
+  color: white;
+}

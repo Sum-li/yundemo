@@ -1,0 +1,20 @@
+/* pages/zixuninfo/zixuninfo.wxss */
+.info-group{
+  margin-top: 50rpx;
+  padding: 20rpx;
+  background: #f9f9f9f9;
+  overflow: hidden;
+}
+
+.info-title{
+  font-size: 32rpx;
+  float: left;
+}
+
+.kh-img{
+  width: 34rpx;
+  height: 34rpx;
+  float: right;
+  margin-right: 40rpx;
+  margin-top: 8rpx;
+}

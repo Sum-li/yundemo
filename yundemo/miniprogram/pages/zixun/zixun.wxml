@@ -1,0 +1,35 @@
+<!--pages/zixun/zixun.wxml-->
+<view class='body'>
+<!-- <view class='header-group'>
+  <input class='header-input' placeholder='找一找' placeholder-class='placeholder-input'></input>
+</view> -->
+
+<swiper class='banner-group' autoplay='true' interval='2000' circular='true' indicator-dots='true'>
+<block wx:for="{{imgUrls}}">
+<swiper-item>
+<image src='{{item}}' class='banner-img'></image>
+</swiper-item>
+</block>
+</swiper>
+
+<view class='new-info' bindtap='onnavigate1'>
+<image src='../../myicon/daxue.jpg' class='uni-img'></image>
+<text class='new-text3'>开启你的考研之路</text>
+<text class='new-text1'>只要你有一颗考研的心，结果定不会辜负你</text>
+<text class='new-text2'>考研知识普及</text>
+</view>
+
+<view class='kaoyan-info' bindtap='onnavigate2'>
+<image src='../../myicon/kaoyan.jpg' class='ky-img'></image>
+<text class='kaoyan-text1'>关注心怡高校的动态</text>
+<text class='kaoyan-text2'>追踪高校最新动态，打有把握的仗</text>
+<text class='kaoyan-text3'>高校政策追踪</text>
+</view>
+
+<view class='sum-up' bindtap='onnavigate3'>
+<image src='../../myicon/zongjie.jpg' class='zj-img'></image>
+<text class='sum-up-text1'>高校近十年状况分析</text>
+<text class='sum-up-text2'>纵观高校近10年发展，做出最适合自己的选择</text>
+<text class='sum-up-text3'>高校数据分析</text>
+</view>
+</view>

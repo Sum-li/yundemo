@@ -1,0 +1,57 @@
+{
+  "pages": [
+    "pages/user/user",
+    "pages/zixun/zixuntrend/zixuntrend",
+    "pages/cms/add_article/add_article",
+    "pages/cms/add_school/add_school",
+    "pages/cms/index",
+    "pages/zixun/zixun",
+    "pages/ziliao/ziliao",
+    "pages/renwu/renwu",
+    "pages/zixun/zixuninfo/zixuninfo",
+    "pages/zixun/zixunsum-up/zixunsum-up",
+    "pages/zixun/zixuninfo/info",
+    "pages/zixun/zixuntrend/zixunindex",
+    "pages/cms/add_ziliao/add_ziliao"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#c4ddf6",
+    "navigationBarTextStyle": "black",
+    "backgroundColor": "#fcece0"
+  },
+  "cloud": true,
+  "tabBar": {
+    "position": "bottom",
+    "borderStyle": "white",
+    "backgroundColor": "#f8f8f8",
+    "color": "#aeafb2",
+    "selectedColor": "#74a5e3",
+    "list": [
+      {
+        "pagePath": "pages/zixun/zixun",
+        "text": "考研咨询",
+        "iconPath": "./myicon/zixun.png",
+        "selectedIconPath": "./myicon/zixun.png"
+      },
+      {
+        "pagePath": "pages/renwu/renwu",
+        "text": "今日任务",
+        "iconPath": "./myicon/renwu.png",
+        "selectedIconPath": "./myicon/renwu.png"
+      },
+      {
+        "pagePath": "pages/ziliao/ziliao",
+        "text": "考研资料",
+        "iconPath": "./myicon/ziliao.png",
+        "selectedIconPath": "./myicon/ziliao.png"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "text": "我",
+        "iconPath": "./myicon/wode1.png",
+        "selectedIconPath": "./myicon/wode1.png"
+      }
+    ]
+  }
+}

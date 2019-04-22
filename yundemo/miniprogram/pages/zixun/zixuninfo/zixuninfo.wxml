@@ -1,0 +1,74 @@
+<view class='info-group' bindtap='oncontent1'>
+<text class='info-title'>学硕与专硕</text>
+<image src='../../../myicon/right-kuohao.png' class='kh-img'></image>
+</view>
+
+<view class='info-group' bindtap='oncontent2'>
+<text class='info-title'>考验科目</text>
+<image src='../../../myicon/right-kuohao.png' class='kh-img'></image>
+</view>
+
+<view class='info-group' bindtap='oncontent3'>
+<text class='info-title'>考研分数</text>
+<image src='../../../myicon/right-kuohao.png' class='kh-img'></image>
+</view>
+
+<view class='info-group' bindtap='oncontent4'>
+<text class='info-title'>试卷结构</text>
+<image src='../../../myicon/right-kuohao.png' class='kh-img'></image>
+</view>
+
+<view class='info-group' bindtap='oncontent5'>
+<text class='info-title'>不同专业的数学</text>
+<image src='../../../myicon/right-kuohao.png' class='kh-img'></image>
+</view>
+
+<view class='info-group' bindtap='oncontent6'>
+<text class='info-title'>考试的时间结构</text>
+<image src='../../../myicon/right-kuohao.png' class='kh-img'></image>
+</view>
+
+<view class='info-group' bindtap='oncontent7'>
+<text class='info-title'>考试的成绩公布时间</text>
+<image src='../../../myicon/right-kuohao.png' class='kh-img'></image>
+</view>
+
+<view class='info-group' bindtap='oncontent8'>
+<text class='info-title'>考研数学总</text>
+<image src='../../../myicon/right-kuohao.png' class='kh-img'></image>
+</view>
+
+<view class='info-group' bindtap='oncontent9'>
+<text class='info-title'>数学一</text>
+<image src='../../../myicon/right-kuohao.png' class='kh-img'></image>
+</view>
+
+<view class='info-group' bindtap='oncontent10'>
+<text class='info-title'>数学二</text>
+<image src='../../../myicon/right-kuohao.png' class='kh-img'></image>
+</view>
+
+<view class='info-group' bindtap='oncontent11'>
+<text class='info-title'>数学三</text>
+<image src='../../../myicon/right-kuohao.png' class='kh-img'></image>
+</view>
+
+<view class='info-group' bindtap='oncontent12'>
+<text class='info-title'>数学对应考试的专业</text>
+<image src='../../../myicon/right-kuohao.png' class='kh-img'></image>
+</view>
+
+<view class='info-group' bindtap='oncontent13'>
+<text class='info-title'>数一的专业</text>
+<image src='../../../myicon/right-kuohao.png' class='kh-img'></image>
+</view>
+
+<view class='info-group' bindtap='oncontent14'>
+<text class='info-title'>数二的专业</text>
+<image src='../../../myicon/right-kuohao.png' class='kh-img'></image>
+</view>
+
+<view class='info-group' bindtap='oncontent15'>
+<text class='info-title'>数三的专业</text>
+<image src='../../../myicon/right-kuohao.png' class='kh-img'></image>
+</view>

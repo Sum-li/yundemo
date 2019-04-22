@@ -1,0 +1,4 @@
+<!--miniprogram/pages/cms/index.wxml-->
+<view class='cms-add' bindtap='onaddschool'>添加学校</view>
+<view class='cms-add' bindtap='onaddarticle'>添加文章</view>
+<view class='cms-add' bindtap='onaddziliao'>添加资料</view>

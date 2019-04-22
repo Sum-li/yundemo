@@ -1,0 +1,187 @@
+/* pages/renwu/renwu.wxss */
+.body{
+  background: #fff;
+  padding-top: 30rpx;
+}
+
+.record-group{
+  height: 200rpx;
+  width: 90%;
+  background: #8fb8d9;
+  margin: auto;
+  border-radius: 40rpx;
+  text-align: center;
+}
+
+.record-group .dk-img{
+  width: 70rpx;
+  height: 70rpx;
+  float: left;
+  margin-left: 30rpx;
+  margin-top: 10rpx;
+}
+
+.record-group .record-text{
+  font-size: 26rpx;
+  float: left;
+  margin-left: 8rpx;
+  margin-top: 30rpx;
+}
+
+.record-group .xian{
+  width: 70%;
+  height: 2rpx;
+  background: #3f5655;
+  float: left;
+  margin-top: 30rpx;
+  margin-left: -70rpx;  
+}
+
+.record-group .jsq-img{
+  width: 70rpx;
+  height: 70rpx;
+  float: left;
+  margin-top: 40rpx;
+  margin-left: -472rpx;
+}
+
+.record-group .jy-img{
+  width: 76rpx;
+  height: 76rpx;
+  margin-top: 10rpx;
+  margin-left: 30rpx;
+}
+
+.record-group .record-daka{
+  width: 96rpx;
+  height: 60rpx;
+  font-size: 24rpx;
+  line-height: 60rpx;
+  border-radius: 10rpx;
+  border: 1rpx solid #aadafb;
+  float: right;
+  margin-top: 16rpx;
+  margin-right: 20rpx;
+}
+
+.record-group .wdk{
+  background: #60c360;
+  color: white;
+}
+
+.record-group .ydk{
+  background: white;
+  color: black;
+}
+
+.task-group{
+  width: 90%;
+  padding: 10rpx;
+  box-sizing: border-box;
+  margin: 0 auto;
+  margin-top: 30rpx;
+  border-radius: 7%;
+  overflow: hidden;
+  margin-bottom: 30rpx;
+}
+
+.task-group .task-rough{
+  width: 100%;
+  background: #c7ad89;
+  padding: 20rpx;
+  box-sizing: border-box;
+}
+
+.task-group .task-rough .rough-text{
+  font-size: 30rpx;
+  color: #c4d4f8;
+  margin-bottom: 20rpx;
+}
+
+.rough-one{
+  font-size: 26rpx;
+  width: 80%;
+  padding-bottom: 17rpx;
+  border-bottom: 2rpx solid #f4f3f3;
+  margin-bottom: 15rpx;
+  margin-left: 40rpx;
+}
+.task-group .task-rough .rough-one2{
+  padding-bottom: 17rpx;
+  margin-bottom: 15rpx;
+}
+
+.task-group .task-complete{
+  width: 100%;
+  padding: 20rpx;
+  box-sizing: border-box;
+  background: #b3cd9f;
+}
+
+.task-group .task-complete .complete-text{
+  font-size: 30rpx;
+  margin-bottom: 20rpx;
+  color: #754bd2;
+}
+
+.complete-one{
+  font-size: 26rpx;
+  width: 80%;
+  padding-bottom: 17rpx;
+  border-bottom: 2rpx solid #f4f3f3;
+  margin-bottom: 15rpx;
+  margin-left: 40rpx;
+}
+
+.task-group .task-complete .complete-one2{
+  padding-bottom: 17rpx;
+  margin-bottom: 15rpx;
+}
+
+.add-group{
+  width: 88%;
+  margin: 0 auto;
+  background: #ef8a72;
+  padding: 20rpx;
+  border-radius: 18rpx;
+  box-sizing: border-box;
+  height: 180rpx;
+}
+
+.add-group .add-text{
+  font-size: 30rpx;
+  margin-bottom: 20rpx;
+  color: #55625d; 
+}
+
+.add-group .add-input{
+  background: #ffffff;
+  font-size: 24rpx;
+  width: 80%;
+  height: 50rpx;
+  padding-left: 40rpx;
+  border-radius: 4rpx;
+  box-sizing: border-box;
+}
+
+.add-group .add-placeholder{
+  font-size: 30rpx;
+  color: #a6a6a6;
+}
+
+.add-group .add-btn{
+  float: right;
+  width: 100rpx;
+  height: 50rpx;
+  font-size: 20rpx;
+  margin-top: -50rpx;
+}
+
+.complete-btn{
+  width: 84rpx;
+  height: 40rpx;
+  font-size: 14rpx;
+  float: right;
+  margin-top: -50rpx;
+  margin-right: -10rpx;
+}

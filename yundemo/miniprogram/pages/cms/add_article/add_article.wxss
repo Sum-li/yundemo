@@ -1,0 +1,39 @@
+/* miniprogram/pages/cms/add_article/add_article.wxss */
+
+.lable{
+  margin-left: 100rpx;
+  font-size: 36rpx;
+}
+
+.form-input{
+  background: #f6f6f6;
+  height: 70rpx;
+  width: 70%;
+  margin: auto;
+  font-size: 30rpx;
+  border-radius: 50rpx;
+  padding-left: 55rpx;
+  margin-bottom: 30rpx;
+}
+
+.form-btn{
+  margin-top: 30rpx;
+  width: 60%;
+  height: 85rpx;
+  font-size: 34rpx;
+  line-height: 85rpx;
+  background: #da6847;
+  color: white;
+}
+
+.myupload{
+  width: 75%;
+  height: 80rpx;
+  line-height: 80rpx;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 30rpx;
+  margin-top: 50rpx;
+  margin-bottom: 40rpx;
+  background: #1dc1d6;
+}

@@ -1,0 +1,39 @@
+<!--pages/renwu/renwu.wxml-->
+<view class='body'>
+  <view class='record-group'>
+    <image src='../../myicon/daka.png' class='dk-img'></image>
+    <text class='record-text'>累计打卡天数：{{days[0]}}</text>
+    <view class='xian'></view>
+    <image src='../../myicon/jishiqi.png' class='jsq-img'></image>
+    <text class='record-text'>考研<text style='color:red; font-size:40rpx;'>剩余天数</text><text>:  </text>
+    <text style='color:red;'>{{days[1]}}</text></text>
+    <image src='../../myicon/jiayou.png' class='jy-img'></image>
+    <view class='record-daka {{css[csscount].color}}' bindtap='ondakaevent'>{{css[csscount].meg}}</view>
+  </view>
+
+  <view class='task-group'>
+    <view class='task-rough'>
+      <view class='rough-text'>任务 :</view>
+      <block wx:for='{{rough}}'>
+        <view class='rough-one'>{{item.description}}</view>
+        <button plain='true' class='complete-btn' data-taskid='{{item._id}}' bindtap='ongettask'>get</button>
+      </block>
+      <view class='rough-one2'></view>
+    </view>
+    <view class='task-complete'>
+      <view class='complete-text'>已完成 :</view>
+      <block wx:for='{{complete}}'>
+        <view class='complete-one'>{{item.description}}</view>
+      </block>
+      <view class='complete-one2'></view>
+    </view>
+  </view>
+
+  <view class='add-group'>
+    <view class='add-text'>添加任务 ：</view>
+    <form bindsubmit='onaddtask'>
+      <input value='{{input_meg}}' placeholder='添加今天要完成的任务' class='add-input' placeholder-class='add-placeholder' maxlength='20' name='task'></input>
+      <button type='warn' plain='true' class='add-btn' form-type='submit'>添加</button>
+    </form>
+  </view>
+</view>

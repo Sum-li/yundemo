@@ -1,0 +1,9 @@
+/* pages/zixun/zixuninfo/info.wxss */
+.info-content{
+  padding: 24rpx;
+  margin-top: 40rpx;
+}
+
+.info-content .info-text{
+  font-size: 28rpx;
+}

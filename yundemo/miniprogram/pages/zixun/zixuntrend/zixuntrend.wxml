@@ -1,0 +1,80 @@
+<!--miniprogram/pages/zixun/zixuntrend/zixuntrend.wxml-->
+<scroll-view scroll-y='true' class='school-category'>
+<block wx:for='{{school}}'>
+<view class='{{mycss[is_choose[index]]}}' data-school='{{item.school}}' data-is_choose='{{index}}' bindtap='onschoolevent'>{{item.school}}</view>
+</block>
+<!-- <view id='qh' class='myschool' style='border-right: 14rpx solid red;'>清华大学</view> -->
+<!-- <view id='bd' class='myschool'>北京大学</view>
+<view id='' class='myschool'>复旦大学</view>
+<view class='myschool'>上海交大</view>
+<view class='myschool'>哈工大</view>
+<view class='myschool'>中国科大</view>
+<view class='myschool'>同济大学</view>
+<view class='myschool'>南京大学</view>
+<view class='myschool'>浙江大学</view>
+<view class='myschool'>西安交大</view>
+<view class='myschool'>西安交大</view>
+<view class='myschool'>西安交大</view>
+<view class='myschool'>西安交大</view>
+<view class='myschool'>西安交大</view>
+<view class='myschool'>西安交大</view>
+<view class='myschool'>西安交大</view>
+<view class='myschool'>西安交大</view>
+<view class='myschool'>西安交大</view>
+<view class='myschool'>西安交大</view>
+<view class='myschool'>西安交大</view>
+<view class='myschool'>西安交大</view> -->
+</scroll-view>
+
+<scroll-view scroll-y='true' class='school-article-group'>
+<block wx:for='{{article}}'>
+<view class='article-group' data-article_id='{{item.article_id}}' data-bm='{{item.bianma}}' bindtap='onarticle_content'>
+<view class='school-article'>{{item.title}}</view>
+<view class='school-text'>{{item.pubtime}}</view>
+</view>
+</block>
+<!-- <view class='article-group'>
+<view class='school-article'>清华大学近日早报</view>
+<view class='school-text'>2019年4月9日</view>
+</view>
+<view class='article-group'>
+<view class='school-article'>清华大学近日早报</view>
+<view class='school-text'>2019年4月9日</view>
+</view>
+<view class='article-group'>
+<view class='school-article'>清华大学近日早报</view>
+<view class='school-text'>2019年4月9日</view>
+</view>
+<view class='article-group'>
+<view class='school-article'>清华大学近日早报</view>
+<view class='school-text'>2019年4月9日</view>
+</view>
+<view class='article-group'>
+<view class='school-article'>清华大学近日早报</view>
+<view class='school-text'>2019年4月9日</view>
+</view>
+<view class='article-group'>
+<view class='school-article'>清华大学近日早报</view>
+<view class='school-text'>2019年4月9日</view>
+</view>
+<view class='article-group'>
+<view class='school-article'>清华大学近日早报</view>
+<view class='school-text'>2019年4月9日</view>
+</view>
+<view class='article-group'>
+<view class='school-article'>清华大学近日早报</view>
+<view class='school-text'>2019年4月9日</view>
+</view>
+<view class='article-group'>
+<view class='school-article'>清华大学近日早报</view>
+<view class='school-text'>2019年4月9日</view>
+</view>
+<view class='article-group'>
+<view class='school-article'>清华大学近日早报</view>
+<view class='school-text'>2019年4月9日</view>
+</view>
+<view class='article-group'>
+<view class='school-article'>清华大学近日早报</view>
+<view class='school-text'>2019年4月9日</view>
+</view> -->
+</scroll-view>

@@ -1,0 +1,5 @@
+<!--miniprogram/pages/cms/add_school/add_school.wxml-->
+<form bindsubmit='onadd_school'>
+<input placeholder='请输入要添加的学校' class='form-input' name='school' value='{{value}}'></input>
+<button form-type='submit' class='form-btn'>提交</button>
+</form>

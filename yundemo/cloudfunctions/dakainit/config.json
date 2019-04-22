@@ -1,0 +1,9 @@
+{
+  "triggers": [
+    {
+      "name": "daka_init",
+      "type": "timer",
+      "config": "0 0 0 * * * *"
+    }
+  ]
+}

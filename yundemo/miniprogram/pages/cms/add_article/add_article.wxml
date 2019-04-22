@@ -1,0 +1,11 @@
+<!--miniprogram/pages/cms/add_article/add_article.wxml-->
+<form bindsubmit='onadd_article'>
+  <label class='lable'>标题: </label>
+  <input placeholder='请输入标题' class='form-input' name='title' value='{{value}}'></input>
+  <label class='lable'>学校: </label>
+  <input placeholder='请输入学校' class='form-input' name='school' value='{{value}}'></input>
+  <label class='lable'>编码: </label>
+  <input placeholder='请输入编码（gbk or utf-8）' class='form-input' name='bianma' value='{{value}}'></input>
+  <view bindtap='myupload' class='myupload'>上传文章</view>
+  <button form-type='submit' class='form-btn'>提交</button>
+</form>

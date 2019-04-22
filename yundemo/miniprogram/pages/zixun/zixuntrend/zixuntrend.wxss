@@ -1,0 +1,55 @@
+/* miniprogram/pages/zixun/zixuntrend/zixuntrend.wxss */
+.school-category{
+  height: 1200rpx;
+  width: 23%;
+  float: left;
+}
+
+.school-category .myschool{
+  font-size: 30rpx;
+  padding: 24rpx 16rpx;
+  border-top: 3rpx solid #e2e2e2;
+  border-bottom: 3rpx solid #e2e2e2;
+  border-right: 3rpx solid #e2e2e2;
+  box-sizing: border-box;
+}
+
+.mycss{
+  font-size: 30rpx;
+  padding: 24rpx 16rpx;
+  border-top: 3rpx solid #e2e2e2;
+  border-bottom: 3rpx solid #e2e2e2;
+  box-sizing: border-box;
+  border-right: 20rpx solid red;
+}
+
+::-webkit-scrollbar{
+  width: 0;
+  height: 0;
+}
+
+.school-article-group{
+  height: 1200rpx;
+  width: 77%;
+  float: right;
+}
+
+.article-group{
+  background: #f9f9f9;
+  border: 2rpx #e4e4e4 solid;
+  margin-bottom: 40rpx;
+}
+
+.school-article{
+  text-align: center;
+  font-size: 36rpx;
+  padding-top: 40rpx;
+  padding-bottom: 20rpx;
+}
+
+.school-text{
+  font-size: 20rpx;
+  float: right;
+  padding-right: 10rpx;
+  padding-bottom: 10rpx;
+}
